@@ -12,7 +12,7 @@ Clone this repository to your local machine using the following command:
 
 bash
 Copy code
-git clone https://github.com/[YOUR-USERNAME]/selenium-java-testng-listeners-extent-report-screenshot.git
+git clone
 
 Build and Run the tests:
 Navigate to the root directory of the project.
