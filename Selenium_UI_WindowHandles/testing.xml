@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="WindowHandles" parallel="methods" thread-count="5">
+  <listeners>
+    <listener class-name="ui_windowHandles.Listeners"/>
+  </listeners>
+
+  <test name="switchMultipleLinkInNewTab">
+
+<classes>
+      <class name="ui_windowHandles.windowHandles">
+			<methods>
+                    <include name="linkInNewTab"/>
+                    <include name="multipleLinkInNewTab"/>
+                    <include name="switchMultipleLinkInNewTab"/>
+                </methods>
+      </class>
+
+    </classes>
+</test>
+
+</suite>

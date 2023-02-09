@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="methods" name="Failed suite [WindowHanles]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="ui_windowHandles.Listeners"/>
+  </listeners>
+  <test thread-count="3" parallel="methods" name="switchMultipleLinkInNewTab(failed)">
+    <classes>
+      <class name="ui_windowHandles.windowHandles">
+        <methods>
+          <include name="multipleLinkInNewTab"/>
+          <include name="loadUrl"/>
+          <include name="linkInNewTab"/>
+          <include name="closeWindow"/>
+        </methods>
+      </class> <!-- ui_windowHandles.windowHandles -->
+    </classes>
+  </test> <!-- switchMultipleLinkInNewTab(failed) -->
+</suite> <!-- Failed suite [WindowHanles] -->
